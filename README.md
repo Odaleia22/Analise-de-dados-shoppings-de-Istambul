@@ -1,26 +1,99 @@
-# Analise-de-dados-de-shoppings-de-Istanbul
+# 📊 Análise de Dados de Shoppings de Istambul
 
-Análise de mercado e segmentação de clientes em shoppings localizados em Istambul.
+## 📌 Visão Geral
 
+Este projeto tem como objetivo realizar uma análise de mercado e segmentação de clientes em shoppings localizados em Istambul, com foco na identificação de oportunidades estratégicas para aumento de faturamento e engajamento do público.
 
-A nossa análise teve como base um dataset com dados sobre dez shoppings localizados em Istambul. 
+A análise foi conduzida a partir de um dataset contendo informações de dez shoppings da cidade, permitindo uma visão comparativa entre diferentes perfis de consumo e desempenho.
 
-A priori, foi realizada uma pipeline completa de dados, iniciando-de com o carregamento dos dados na Big Query. Posteriormente , carregamos os dados no Colab e utilizamos a linguagem Python de programação e o framework Pandas para o tratamento dos dados. Ademais, utilizamos também o framework Matplotlib para a criação de gráficos técnicos, como diagrama de dispersão e histograma para uma análise mais detalhada dos dados.
-Para o levantamento de perguntas de negócios, integramos o código ao Langchain e ao Chat GPT.
+---
 
-O objetivo da nossa análise foi compreender o que faz o shopping Mall Istambul faturar tanto, em contraste com o shopping Fórum Istambul. Dessa forma, foi realizado um v
-benchmarking, em que ambos os shoppings foram comparados, desde a infraestrutura até a experiência do cliente.
+## 🎯 Objetivos
 
-Por fim, pensamos em ações de marketing que atraíssem mulheres de 18 a 24 anos, bem como a faixa etária de mulheres idosas sênior, de 64 a 70 anos, para o Forum Istambul, visto que esse é o público que menos compra nesse shopping.
-Para isso, identificarmos os hábitos de compra desses clientes, para criarmos as melhores soluções.
+* Compreender os fatores que contribuem para o alto faturamento do **Mall of Istanbul**
+* Comparar o desempenho com o **Forum Istanbul**
+* Identificar padrões de comportamento de consumo dos clientes
+* Propor ações estratégicas de marketing baseadas em dados
 
-Finalizo esta publicação agradecendo imensamente a minha equipe, pelo companheirismo, pela empatia, o respeito às ideias de cada integrante e ao tempo de cada um.
-Vocês foram incríveis: Andrezza Marcilio , Bruno Cunha, Erika Zavatini de Carvalho, LUANE CAROLINE e Nadja Guerra.
+---
 
-E o que falar da nossa maravilhosíssima professora Franciane Rodrigues ?
-Ressalto o que já havia dito pessoalmente: As suas aulas foram de extrema importância para a nossa jornada até aqui.
-Foram dez semanas de muita dedicação e partilha de conhecimentos. 
+## 🛠️ Tecnologias Utilizadas
 
-Com certeza, saímos desse Bootcamp não apenas profissionais melhores, mas também pessoas melhores 🔝.
+* **Google BigQuery**: armazenamento e processamento inicial dos dados
+* **Google Colab**: ambiente de desenvolvimento
+* **Python**: linguagem principal para análise de dados
+* **Pandas**: manipulação e tratamento dos dados
+* **Matplotlib**: visualização de dados (gráficos como histogramas e diagramas de dispersão)
+* **LangChain + ChatGPT**: apoio na geração de perguntas de negócio e insights
 
-De coração, deixo o meu muito obrigada!💜
+---
+
+## 🔄 Pipeline de Dados
+
+1. Ingestão dos dados no BigQuery
+2. Extração e carregamento no Google Colab
+3. Tratamento e limpeza dos dados com Pandas
+4. Análise exploratória e visualização com Matplotlib
+5. Geração de insights e perguntas estratégicas com LangChain + ChatGPT
+
+---
+
+## 📈 Análise Realizada
+
+Foi conduzido um **benchmarking** entre os shoppings **Mall of Istanbul** e **Forum Istanbul**, considerando fatores como:
+
+* Infraestrutura
+* Experiência do cliente
+* Perfil de consumo
+* Volume de faturamento
+
+Essa comparação permitiu identificar possíveis causas para a diferença de desempenho entre os dois empreendimentos.
+
+---
+
+## 💡 Principais Insights
+
+* O **Mall of Istanbul** apresenta maior faturamento devido a fatores relacionados à experiência e perfil de público
+* O **Forum Istanbul** possui menor engajamento em determinados segmentos específicos
+
+---
+
+## 🚀 Recomendações Estratégicas
+
+Foram propostas ações de marketing com foco nos públicos menos ativos no Forum Istanbul:
+
+* Mulheres de **18 a 24 anos**
+* Mulheres de **64 a 70 anos**
+
+As estratégias foram baseadas na análise dos hábitos de compra desses grupos, visando:
+
+* Aumentar a frequência de visitas
+* Melhorar a experiência do cliente
+* Impulsionar o volume de compras
+
+---
+
+## 🤝 Equipe
+
+Este projeto foi desenvolvido em colaboração com:
+
+* Andrezza Marcilio
+* Bruno Cunha
+* Erika Zavatini de Carvalho
+* Luane Caroline
+* Nadja Guerra
+
+---
+
+## 🎓 Agradecimentos
+
+Agradecimento especial à professora **Franciane Rodrigues**, cuja orientação foi fundamental ao longo de toda a jornada.
+
+Este projeto foi desenvolvido durante um bootcamp intensivo de 10 semanas, marcado por aprendizado contínuo, colaboração e evolução profissional.
+
+---
+
+## 📌 Conclusão
+
+Ao final deste projeto, consolidamos não apenas competências técnicas em análise de dados, mas também habilidades de trabalho em equipe, pensamento estratégico e resolução de problemas orientada a dados.
+
